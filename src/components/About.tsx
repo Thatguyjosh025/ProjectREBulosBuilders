@@ -30,7 +30,7 @@ const About: React.FC = () => {
 
           <div className="col-md-6">
             <img
-              src="./src/images/about.jpg"
+              src="public/images/about.jpg"
               alt="Construction"
               className="img-fluid about-img"
             />

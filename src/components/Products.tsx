@@ -15,28 +15,28 @@ function Products() {
       price: "000,000",
       size: "180 sqm",
       beds: 3,
-      img: "./src/images/NATHALIA.png",
+      img: "public/images/NATHALIA.png",
     },
     {
       name: "Elize",
       price: "000,000",
       size: "450 sqm",
       beds: 6,
-      img: "./src/images/ELIZE.png",
+      img: "public/images/ELIZE.png",
     },
     {
       name: "Maxine",
       price: "000,000",
       size: "95 sqm",
       beds: 2,
-      img: "./src/images/MAXINE.png",
+      img: "public/images/MAXINE.png",
     },
     {
       name: "Benedict",
       price: "000,000",
       size: "130 sqm",
       beds: 3,
-      img: "./src/images/BENEDICT.png",
+      img: "public/images/BENEDICT.png",
     },
   ];
 
