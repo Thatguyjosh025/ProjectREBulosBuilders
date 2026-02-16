@@ -1,4 +1,5 @@
 // import React, { useState } from "react";
+import NATHALIA from "./public/images/NATHALIA.png"
 
 interface House {
   name: string;
@@ -11,7 +12,7 @@ interface House {
 function Products() {
   const houses: House[] = [
     {
-      name: "Nataliah",
+      name: NATHALIA,
       price: "000,000",
       size: "180 sqm",
       beds: 3,
