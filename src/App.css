@@ -1,3 +1,4 @@
+
 body {
   scroll-behavior: smooth;
   justify-content: center;
@@ -15,7 +16,7 @@ div#root{
 /* HERO */
 .hero-section {
   height: 100vh;
-  background-image: url("public/images/hero-bg.jpg");
+  background-image: url("./components/images/hero-bg.jpg");
   background-size: cover;
   background-position: center;  
   display: flex;

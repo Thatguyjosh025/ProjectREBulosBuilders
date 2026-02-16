@@ -1,5 +1,9 @@
 // import React, { useState } from "react";
-import NATHALIA from "./public/images/NATHALIA.png"
+import NATHALIA from "./images/NATHALIA.png";
+import ELIZE from "./images/ELIZE.png";
+import MAXINE from "./images/MAXINE.png";
+import BENEDICT from "./images/BENEDICT.png";
+
 
 interface House {
   name: string;
@@ -12,32 +16,32 @@ interface House {
 function Products() {
   const houses: House[] = [
     {
-      name: NATHALIA,
+      name: "Nataliah",
       price: "000,000",
       size: "180 sqm",
       beds: 3,
-      img: "public/images/NATHALIA.png",
+      img: NATHALIA,
     },
     {
       name: "Elize",
       price: "000,000",
       size: "450 sqm",
       beds: 6,
-      img: "public/images/ELIZE.png",
+      img: ELIZE,
     },
     {
       name: "Maxine",
       price: "000,000",
       size: "95 sqm",
       beds: 2,
-      img: "public/images/MAXINE.png",
+      img: MAXINE,
     },
     {
       name: "Benedict",
       price: "000,000",
       size: "130 sqm",
       beds: 3,
-      img: "public/images/BENEDICT.png",
+      img: BENEDICT,
     },
   ];
 

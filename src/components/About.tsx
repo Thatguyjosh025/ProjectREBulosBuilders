@@ -1,4 +1,5 @@
 import React from "react";
+import ABOUTimg from "./images/about.jpg"
 
 const About: React.FC = () => {
   return (
@@ -30,7 +31,7 @@ const About: React.FC = () => {
 
           <div className="col-md-6">
             <img
-              src="public/images/about.jpg"
+              src={ABOUTimg}
               alt="Construction"
               className="img-fluid about-img"
             />
