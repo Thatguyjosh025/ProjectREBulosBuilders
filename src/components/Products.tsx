@@ -72,7 +72,7 @@ function Products() {
                   />
                   <div className="card-body">
                     <h5 className="fw-bold">{house.name}</h5>
-                    <p>Price: {house.price}</p>
+                    {/* <p>Price: {house.price}</p>
                     <p>Size: {house.size}</p>
                     <p>{house.beds} Bedrooms</p>
                     <button
@@ -80,7 +80,7 @@ function Products() {
                       onClick={() => openModal(house)}
                     >
                       View Details
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
