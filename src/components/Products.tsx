@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
 interface House {
   name: string;
@@ -40,18 +40,18 @@ function Products() {
     },
   ];
 
-  const [selectedHouse, setSelectedHouse] = useState<House | null>(null);
-  const [showModal, setShowModal] = useState(false);
+  // const [selectedHouse, setSelectedHouse] = useState<House | null>(null);
+  // const [showModal, setShowModal] = useState(false);
 
-  const openModal = (house: House) => {
-    setSelectedHouse(house);
-    setShowModal(true);
-  };
+  // const openModal = (house: House) => {
+  //   setSelectedHouse(house);
+  //   setShowModal(true);
+  // };
 
-  const closeModal = () => {
-    setShowModal(false);
-    setSelectedHouse(null);
-  };
+  // const closeModal = () => {
+  //   setShowModal(false);
+  //   setSelectedHouse(null);
+  // };
 
   return (
     <>
